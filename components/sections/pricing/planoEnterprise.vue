@@ -1,0 +1,66 @@
+<template>
+  <v-card class="fill-height dark rounded-lg">
+    <v-system-bar class="primary px-8 justify-center" height="30px"
+      >Recomendado para você</v-system-bar
+    >
+    <div class="pa-8">
+      <p class="headline mb-5 no-interaction">Enterprise</p>
+      <p class="font-weight-light pricing-content no-interaction">
+        Surpreenda o mercado com todos os recursos que um setor de marketing pode gerar.
+      </p>
+      <v-btn large block color="primary">Começar agora</v-btn>
+    </div>
+    <v-divider></v-divider>
+    <div class="pa-8 font-weight-light">
+      <check v-for="i in checks" :key="i">
+        <span>{{ i }}</span>
+      </check>
+    </div>
+  </v-card>
+</template>
+
+<script>
+import check from "./check.vue";
+import maisinfo from "./maisinfo.vue";
+export default {
+  components: {
+    check,
+    maisinfo,
+  },
+  data() {
+    return {
+      checks: [
+        "Artes Gráficas",
+        "Vídeos Ilustrativos",
+        "Ilustração",
+
+        "Campanhas On/Off",
+        "Campanhas Internas",
+        "Auditorias",
+
+        "Gerenciamento Em Multi Redes Sociais",
+        "Anuncios Ads Em Redes Sociais",
+        "Anuncios Ads No Google",
+        "Anuncios Ads No Google Merchan",
+
+        "Funil De Vendas",
+        "Chatbot",
+
+        "Site Código (Node.Js / Nuxt / Vue.Js / React)",
+        "Suporte Email",
+        "Hospedagem + Servidor",
+        "Extranet",
+
+        "Filmagens 4k Áereas C/ Drone",
+        "Filmagens 4k Com Estabilizadores",
+        "Filmagens 6k (Cinema)",
+
+        "Render 3d Estático",
+      ],
+    };
+  },
+};
+</script>
+
+<style>
+</style>

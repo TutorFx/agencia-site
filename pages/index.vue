@@ -1,0 +1,24 @@
+<template>
+  <div>
+      <hero />
+      <servicos />
+      <indicadores />
+      <pricing /> 
+  </div>
+</template>
+
+<script>
+import indicadores from '~/components/sections/indicadores.vue'
+export default {
+  components: { indicadores },
+  head() {
+    return {
+      title: 'Agência Industrial - Marketing Expansivo'
+    }
+  }
+}
+</script>
+
+<style>
+
+</style>
