@@ -9,7 +9,8 @@
           "package.json",
           ".nuxt/content/**",
           "content/**",
-          "./.nuxt/dist/sitemap-routes.json"
+          "./.nuxt/dist/sitemap-routes.json",
+          "api/**"
         ],
         "internalServer": true
       }
@@ -17,15 +18,6 @@
     {
       "src": "api/**/*.js",
       "use": "@vercel/node"
-    },
-    {
-      "src": "nuxt.config.ts",
-      "use": "@nuxtjs/vercel-builder",
-      "config": {
-        "serverFiles": [
-          "api/**"
-        ]
-      }
     }
   ],
   "routes": [
