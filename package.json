@@ -22,7 +22,7 @@
     "jsonwebtoken": "^8.5.1",
     "lottie-colorify": "^0.8.0",
     "lottie-web": "^5.9.1",
-    "mongoose": "^6.2.2",
+    "mongoose": "^6.2.9",
     "nodemailer": "^6.7.2",
     "nodemailer-express-handlebars": "^4.0.0",
     "nuxt": "^2.15.8",
