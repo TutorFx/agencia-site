@@ -68,10 +68,7 @@ export default {
   // server
 
   serverMiddleware: 
-    process.env.NODE_ENV === 'production' ? {} : 
-    {
-      '/api': '~/api'
-    },
+    process.env.NODE_ENV === 'production' ? [] : ['~/api'],
 
   // auth
 
