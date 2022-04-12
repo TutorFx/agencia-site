@@ -14,8 +14,6 @@ export default {
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
 
-  target: 'static',
-
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ["animate.css/animate.min.css"],
 
@@ -36,7 +34,6 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     "@nuxtjs/vuetify",
-    '@nuxt/image'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -47,8 +44,9 @@ export default {
     "@nuxtjs/pwa",
     // https://go.nuxtjs.dev/content
     "@nuxt/content",
-    '@nuxtjs/auth-next',
+    "@nuxtjs/auth-next",
     "vue-toastification/nuxt",
+    "@nuxt/image"
 
     // You can also pass plugin options
     ["vue-toastification/nuxt", {
