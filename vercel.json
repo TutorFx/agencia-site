@@ -10,20 +10,9 @@
           ".nuxt/content/**",
           "content/**",
           "./.nuxt/dist/sitemap-routes.json",
-          "api/**"
         ],
         "internalServer": true
       }
-    },
-    {
-      "src": "api/**/*.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/index",
-      "dest": "/api/index.js"
     }
   ]
 }

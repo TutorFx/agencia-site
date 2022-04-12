@@ -1,5 +1,5 @@
 {
-  "name": "industrial",
+  "name": "industrialapi",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -19,8 +19,6 @@
     "core-js": "^3.19.3",
     "crypto": "^1.0.1",
     "express": "^4.17.3",
-    "jsonwebtoken": "^8.5.1",
-    "lottie-colorify": "^0.8.0",
     "lottie-web": "^5.9.1",
     "mobile-detect": "^1.4.5",
     "mongoose": "^6.2.2",

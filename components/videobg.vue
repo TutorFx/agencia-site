@@ -19,9 +19,7 @@ export default {
     if (process.browser) {
       if (this.$store.state.device.isDesktop) {
         let video = this.$refs.video;
-        window.onNuxtReady((app) => {
-          video.play();
-        });
+        video.play();
       }
     }
   },
