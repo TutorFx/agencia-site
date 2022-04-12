@@ -36,6 +36,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     "@nuxtjs/vuetify",
+    "@nuxt/image"
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -48,7 +49,6 @@ export default {
     "@nuxt/content",
     "@nuxtjs/auth-next",
     "vue-toastification/nuxt",
-    "@nuxt/image"
 
     // You can also pass plugin options
     ["vue-toastification/nuxt", {
