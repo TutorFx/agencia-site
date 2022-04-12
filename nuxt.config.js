@@ -28,10 +28,13 @@ export default {
     "~/components/navigation/footer/",
   ],
 
+  plugins: ['~/plugins/device.server.js'],
+
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     "@nuxtjs/vuetify",
+    '@nuxt/image'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -103,6 +106,9 @@ export default {
   vuetify: {
     customVariables: ["~/assets/variables.scss"],
     theme: {
+      options: {
+        customProperties: true,
+      },
       dark: true,
       themes: {
         dark: {

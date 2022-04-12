@@ -11,10 +11,12 @@
       <v-btn large block color="primary">Começar agora</v-btn>
     </div>
     <v-divider></v-divider>
-    <div class="pa-8 font-weight-light">
-      <check v-for="i in checks" :key="i">
-        <span>{{ i }}</span>
-      </check>
+    <div class="pa-3 py-6">
+      <div class="px-3 font-weight-light pricing-scroller">
+        <check v-for="i in checks" :key="i">
+          <span>{{ i }}</span>
+        </check>
+      </div>
     </div>
   </v-card>
 </template>

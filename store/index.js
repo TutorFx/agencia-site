@@ -4,5 +4,14 @@ export const state = () => ({
         {value: 'solargo', text: 'SolarGO'},
         {value: 'geotech', text: 'Geotech'},
     ],
+    device: {
+        isMobile: false,
+        isTablet: false,
+        isDesktop: false,
+    }
 });
-export const mutations = {};
+export const mutations = {
+    setDevice(state, value){
+        state.device = value
+    }
+};

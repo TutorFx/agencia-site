@@ -2,6 +2,7 @@
   <v-app id="app">
     <navbar />
     <alerts />
+    <loader />
     <v-main class="black">
       <nuxt />
     </v-main>

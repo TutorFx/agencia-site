@@ -3,26 +3,30 @@
 // The variables you want to modify
 // $font-size-root: 20px;
 
-@media only screen and (min-width: 960px) {
-  .container {
-    max-width: 900px;
+@import "./config";
+.container {
+  &:not([class*="container--fluid"]){
+    @include bp("sm"){
+      max-width: 900px;
+    }
+    @include bp("md"){
+      max-width: 950px;
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+    @include bp("lg"){
+      max-width: 1000px;
+    }
+    @include bp("xl"){
+      max-width: 1100px;
+    }
+    @include bp("xs"){
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
   }
 }
-@media only screen and (min-width: 1264px) {
-  .container {
-    max-width: 1000px;
-  }
-}
-@media only screen and (min-width: 1904px) {
-  .container {
-    max-width: 1100px;
-  }
-}
-@media only screen and (max-width: 959px) {
-  .container {
-    padding: 16px;
-  }
-}
+
 
 @keyframes float {
   0% {

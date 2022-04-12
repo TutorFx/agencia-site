@@ -49,4 +49,17 @@ export default {
   min-height: 60px;
   margin-bottom: 28px;
 }
+.pricing-scroller{
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 50vh;
+  &::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgb(1 2 3 / 40%);
+    border-radius: 10px;
+  }
+}
 </style>

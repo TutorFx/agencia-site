@@ -1,9 +1,12 @@
 <template>
   <div>
-      <hero />
-      <servicos />
+      <videobg>
+        <hero />
+        <servicos />
+      </videobg>
       <indicadores />
       <pricing /> 
+      <equipe />
   </div>
 </template>
 

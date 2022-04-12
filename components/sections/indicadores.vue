@@ -7,9 +7,8 @@
           class="d-flex flex-wrap justify-space-between align-center mb-10 pa-3"
         >
           <div class="display-2 mb-3">Resultados que entregamos</div>
-          <div>
-            Relaxe <br />
-            logo
+          <div v-if="$store.state.device.isDesktop" class="animation ma-n10">
+            <animation-json path="builtrocks" />
           </div>
         </div>
         <div class="d-flex flex-wrap justify-space-between black">
@@ -104,5 +103,9 @@ export default {
   min-height: 75vh;
   align-items: center !important;
   display: flex;
+}
+.animation{
+  max-width: 200px;
+  max-height: 200px;
 }
 </style>
