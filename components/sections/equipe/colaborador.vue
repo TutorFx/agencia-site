@@ -7,7 +7,7 @@
         <div class="d-flex">
             <div class="colaborador-avatar">
                 <v-avatar>
-                    <nuxt-img :src="foto" alt="" />
+                    <v-img :src="foto" alt="" />
                 </v-avatar>
             </div>
             <div class="colaborador-content">
@@ -32,7 +32,7 @@ export default {
     props:{
         foto:{
             type: String,
-            default: "/placeholder/avatar.png",
+            default: require("~/assets/placeholder/avatar.png"),
         },
         content:{
             type: Object,

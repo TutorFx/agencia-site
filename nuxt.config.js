@@ -35,8 +35,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
-    "@nuxtjs/vuetify",
-    "@nuxt/image"
+    "@nuxtjs/vuetify"
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -63,12 +62,6 @@ export default {
     baseURL: '/api/',
   },
 
-  // nuxt-img
-  image: {
-    domains: [
-      'agenciaindustrial.com.br'
-    ]
-  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
@@ -80,7 +73,7 @@ export default {
   // server
 
   serverMiddleware: 
-    process.env.NODE_ENV === 'production' ? [] : ['~/api'],
+    process.env.NODE_ENV === 'production' ? {'/_ipx': '~/server/middleware/ipx.js'} : {'~/api': '~/api', '/_ipx': '~/server/middleware/ipx.js'},
 
   // auth
 
