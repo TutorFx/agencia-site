@@ -73,7 +73,7 @@ export default {
   // server
 
   serverMiddleware: 
-    process.env.NODE_ENV === 'production' ? {'/_ipx': '~/server/middleware/ipx.js'} : {'~/api': '~/api', '/_ipx': '~/server/middleware/ipx.js'},
+    process.env.NODE_ENV === 'production' ? [] : ['~/api'],
 
   // auth
 
