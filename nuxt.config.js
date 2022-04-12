@@ -61,6 +61,13 @@ export default {
     baseURL: '/api/',
   },
 
+  // nuxt-img
+  image: {
+    domains: [
+      'agenciaindustrial.com.br'
+    ]
+  },
+
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
