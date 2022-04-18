@@ -1,20 +1,33 @@
 <template>
-  <div>
+  <div class="pricing-container">
+    <div v-if="false" class="animation-pricing-slider">
+      <animation-json
+        class=""
+        path="swipe"     
+      />
+    </div>
     <v-container class="py-16">
-      <v-row>
+      <Flicking
+        :options="options"
+      >
         <!-- Executive -->
-        <v-col cols="12" sm="6" md="4">
+        <v-col cols="auto">
           <plano-ranking />
         </v-col>
         <!-- Executive -->
-        <v-col cols="12" sm="6" md="4">
+        <v-col cols="auto">
           <plano-business />
         </v-col>
         <!-- Executive -->
-        <v-col cols="12" sm="12" md="4">
+        <v-col cols="auto">
           <plano-enterprise />
         </v-col>
-      </v-row>
+        <!-- Executive -->
+        <v-col cols="auto">
+          <plano-ultra />
+        </v-col>
+      </Flicking>
+      {{options.index}}
     </v-container>
   </div>
 </template>
@@ -23,16 +36,48 @@
 import PlanoRanking from './pricing/planoRanking.vue';
 import PlanoBusiness from './pricing/planoBusiness.vue';
 import planoEnterprise from './pricing/planoEnterprise.vue';
+import planoUltra from './pricing/planoUltra.vue';
 export default {
   components: {
     PlanoRanking,
     PlanoBusiness,
     planoEnterprise,
+    planoUltra,
   },
+  data(){
+    return {
+      options: {
+        align: { camera: 0, panel: 0 },
+      }
+    }
+  }
 };
 </script>
 
 <style lang="scss">
+.pricing-container{
+  position: relative;
+}
+.animation-pricing-slider{
+  div{
+    max-width: 300px;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+.price{
+  max-width: 300px;
+  @include bp(md){
+    max-width: 300px;
+  }
+}
 .instagram {
   background: linear-gradient(
     45deg,
@@ -58,7 +103,7 @@ export default {
     border-radius: 10px;
   }
   &::-webkit-scrollbar-thumb {
-    background: rgb(1 2 3 / 40%);
+    background: rgb(255 255 255 / 30%);
     border-radius: 10px;
   }
 }

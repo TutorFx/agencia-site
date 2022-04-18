@@ -1,5 +1,5 @@
 <template>
-  <v-card class="fill-height dark rounded-lg">
+  <v-card class="fill-height dark rounded-lg price">
     <v-system-bar class="dark px-8 justify-center" height="30px"></v-system-bar>
     <div class="pa-8">
       <p class="headline mb-5 no-interaction">Ranking</p>

@@ -50,7 +50,7 @@ export default {
     position: relative;
     z-index: 0;
     height: 100%;
-    background-color: #000000a3;
+    background-color: #000000bd;
   }
 }
 </style>

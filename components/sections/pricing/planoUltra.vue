@@ -1,14 +1,13 @@
 <template>
   <v-card class="fill-height dark rounded-lg price">
-    <v-system-bar class="primary px-8 justify-center" height="30px"
-      >Recomendado para você</v-system-bar
-    >
+    <v-system-bar class="dark px-8 justify-center" height="30px"></v-system-bar>
     <div class="pa-8">
-      <p class="headline mb-5 no-interaction">Enterprise</p>
-      <p class="font-weight-light pricing-content no-interaction">
-        Surpreenda o mercado com todos os recursos que um setor de marketing pode gerar.
+      <p class="headline mb-5 no-interaction">Ultra</p>
+      <p class="font-weight-light no-interaction pricing-content">
+        <br />
+        Todos os recursos de marketing no Full ao seu alcance.
       </p>
-      <v-btn large block color="primary">Começar agora</v-btn>
+      <v-btn large block outlined color="primary">Começar agora</v-btn>
     </div>
     <v-divider></v-divider>
     <div class="pa-3 py-6">
@@ -35,29 +34,26 @@ export default {
         "Artes Gráficas",
         "Vídeos Ilustrativos",
         "Ilustração",
-
-        "Campanhas On/Off",
+        "Campanhas ON/OFF",
         "Campanhas Internas",
         "Auditorias",
-
         "Gerenciamento Em Multi Redes Sociais",
         "Anuncios Ads Em Redes Sociais",
         "Anuncios Ads No Google",
         "Anuncios Ads No Google Merchan",
-
         "Funil De Vendas",
         "Chatbot",
-
-        "Site Código (Node.Js / Nuxt / Vue.Js / React)",
+        "Site Código (Nodejs / Nuxt / Vuejs / React)",
         "Suporte Email",
         "Hospedagem + Servidor",
         "Extranet",
-
+        "App",
         "Filmagens 4k Áereas C/ Drone",
         "Filmagens 4k Com Estabilizadores",
         "Filmagens 6k (Cinema)",
-
         "Render 3d Estático",
+        "Render 3d Animação",
+        "Designer De Ambientes 3d",
       ],
     };
   },
