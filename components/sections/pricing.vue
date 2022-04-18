@@ -2,7 +2,6 @@
   <div class="pricing-container">
     <div v-if="false" class="animation-pricing-slider">
       <animation-json
-        class=""
         path="swipe"     
       />
     </div>
