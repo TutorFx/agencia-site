@@ -59,7 +59,7 @@ export default {
 }
 .animation-pricing-slider{
   div{
-    max-width: 300px;
+    max-width: 300px!important;
   }
   display: flex;
   align-items: center;
@@ -72,7 +72,7 @@ export default {
   z-index: 10;
 }
 .price{
-  max-width: 300px;
+  max-width: 300px!important;
   @include bp(md){
     max-width: 300px;
   }

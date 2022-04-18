@@ -4,6 +4,7 @@
 // $font-size-root: 20px;
 
 @import "./config";
+@import "./flicking";
 .container {
   &:not([class*="container--fluid"]){
     @include bp("sm"){
