@@ -117,7 +117,7 @@ export default {
           icon: "idea",
           iconDark: "idea-dark",
           title: "Mídias",
-          text: "Artes gráficas, Aplicativos, Modelagem 3D, Filmagens",
+          text: "Artes gráficas, Modelagem 3D, Filmagens",
         },
         {
           icon: "cloud",

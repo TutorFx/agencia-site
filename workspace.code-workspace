@@ -1,12 +1,6 @@
 {
 	"folders": [
 		{
-			"path": "."
-		},
-		{
-			"path": "..\\agencia api"
-		},
-		{
 			"path": "..\\agencia-api"
 		}
 	],

@@ -6,7 +6,7 @@
     <v-main class="black">
       <nuxt />
     </v-main>
-    <footer />
+    <footer-one />
   </v-app>
 </template>
 
@@ -26,5 +26,8 @@
 
 <script>
 export default {
+  components: {
+    footerOne: () => import("~/components/navigation/footer/footer.vue"),
+  },
 };
 </script>

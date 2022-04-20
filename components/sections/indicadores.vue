@@ -6,10 +6,11 @@
         <div
           class="d-flex flex-wrap justify-space-between align-center mb-10 pa-3"
         >
-          <div class="display-2 mb-3">Resultados que entregamos</div>
-          <div v-if="$store.state.device.isDesktop" class="animation ma-n10">
+          <div class="display-2 font-weight-bold">Resultados que entregamos</div>
+          <!-- Animation -->
+          <!-- <div v-if="$store.state.device.isDesktop" class="animation ma-n10">
             <animation-json path="builtrocks" />
-          </div>
+          </div> -->
         </div>
         <div class="d-flex flex-wrap justify-space-between black">
           <div v-for="(value, i) in indicadores" :key="i" class="pa-4">
