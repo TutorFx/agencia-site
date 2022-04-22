@@ -2645,10 +2645,10 @@ browserslist@*, browserslist@^4.0.0, browserslist@^4.12.0, browserslist@^4.17.5,
     node-releases "^2.0.1"
     picocolors "^1.0.0"
 
-bson@^4.2.2, bson@^4.6.1:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/bson/-/bson-4.6.1.tgz#2b5da517539bb0f7f3ffb54ac70a384ca899641c"
-  integrity sha512-I1LQ7Hz5zgwR4QquilLNZwbhPw0Apx7i7X9kGMBTsqPdml/03Q9NBtD9nt/19ahjlphktQImrnderxqpzeVDjw==
+bson@^4.6.2:
+  version "4.6.3"
+  resolved "https://registry.yarnpkg.com/bson/-/bson-4.6.3.tgz#d1a9a0b84b9e84b62390811fc5580f6a8b1d858c"
+  integrity sha512-rAqP5hcUVJhXP2MCSNVsf0oM2OGU1So6A9pVRDYayvJ5+hygXHQApf87wd5NlhPM1J9RJnbqxIG/f8QTzRoQ4A==
   dependencies:
     buffer "^5.6.0"
 
@@ -5491,10 +5491,10 @@ jwt-decode@^3.1.2:
   resolved "https://registry.yarnpkg.com/jwt-decode/-/jwt-decode-3.1.2.tgz#3fb319f3675a2df0c2895c8f5e9fa4b67b04ed59"
   integrity sha512-UfpWE/VZn0iP50d8cz9NrZLM9lSWhcJ+0Gt/nm4by88UL+J1SiKN8/5dkjMmbEzwL2CAe+67GsegCbIKtbp75A==
 
-kareem@2.3.4:
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/kareem/-/kareem-2.3.4.tgz#b38c436fb4758775d919b2828b4009db59b52694"
-  integrity sha512-Vcrt8lcpVl0s8ePx634BxwRqmFo+5DcOhlmNadehxreMTIQi/9hOL/B3hZQQbK5DgMS7Lem3xABXV7/S3jy+7g==
+kareem@2.3.5:
+  version "2.3.5"
+  resolved "https://registry.yarnpkg.com/kareem/-/kareem-2.3.5.tgz#111fe9dbab754c8ed88b7a2360e2680cec1420ca"
+  integrity sha512-qxCyQtp3ioawkiRNQr/v8xw9KIviMSSNmy+63Wubj7KmMn3g7noRXIZB4vPCAP+ETi2SR8eH6CvmlKZuGpoHOg==
 
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
   version "3.2.2"
@@ -6178,7 +6178,7 @@ mobile-detect@^1.4.5:
   resolved "https://registry.yarnpkg.com/mobile-detect/-/mobile-detect-1.4.5.tgz#da393c3c413ca1a9bcdd9ced653c38281c0fb6ad"
   integrity sha512-yc0LhH6tItlvfLBugVUEtgawwFU2sIe+cSdmRJJCTMZ5GEJyLxNyC/NIOAOGk67Fa8GNpOttO3Xz/1bHpXFD/g==
 
-mongodb-connection-string-url@^2.4.1:
+mongodb-connection-string-url@^2.5.2:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/mongodb-connection-string-url/-/mongodb-connection-string-url-2.5.2.tgz#f075c8d529e8d3916386018b8a396aed4f16e5ed"
   integrity sha512-tWDyIG8cQlI5k3skB6ywaEA5F9f5OntrKKsT/Lteub2zgwSUlhqEN2inGgBTm8bpYJf8QYBdA/5naz65XDpczA==
@@ -6186,26 +6186,26 @@ mongodb-connection-string-url@^2.4.1:
     "@types/whatwg-url" "^8.2.1"
     whatwg-url "^11.0.0"
 
-mongodb@4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-4.3.1.tgz#e346f76e421ec6f47ddea5c8f5140e6181aaeb94"
-  integrity sha512-sNa8APSIk+r4x31ZwctKjuPSaeKuvUeNb/fu/3B6dRM02HpEgig7hTHM8A/PJQTlxuC/KFWlDlQjhsk/S43tBg==
+mongodb@4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-4.5.0.tgz#d74c2008567b606dccef220f62a44cd7b934eb92"
+  integrity sha512-A2l8MjEpKojnhbCM0MK3+UOGUSGvTNNSv7AkP1fsT7tkambrkkqN/5F2y+PhzsV0Nbv58u04TETpkaSEdI2zKA==
   dependencies:
-    bson "^4.6.1"
+    bson "^4.6.2"
     denque "^2.0.1"
-    mongodb-connection-string-url "^2.4.1"
-    socks "^2.6.1"
+    mongodb-connection-string-url "^2.5.2"
+    socks "^2.6.2"
   optionalDependencies:
     saslprep "^1.0.3"
 
-mongoose@^6.2.2:
-  version "6.2.6"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-6.2.6.tgz#b30ae524b4ab9eeb33ed3988552d344f7b4b1962"
-  integrity sha512-OkPM1y7Ed9+Pa2/18mxegcD0OOe/aCXTQvOEyEn/MzVdaRsVSc+zE6myOS4LkWWi30c2tl4fpdJJvgC/MgXiww==
+mongoose@^6.3.1:
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-6.3.1.tgz#3dbf85209a39355542bb47fba95f07bda1684987"
+  integrity sha512-bknh/VzU/7mBudfE4/5N7NR2Bpjvuxl93iePvyCGLhjeHF6w+mCRmucYGQkG6wEbCmEUVmBQrcgr2b40krMo/Q==
   dependencies:
-    bson "^4.2.2"
-    kareem "2.3.4"
-    mongodb "4.3.1"
+    bson "^4.6.2"
+    kareem "2.3.5"
+    mongodb "4.5.0"
     mpath "0.8.4"
     mquery "4.0.2"
     ms "2.1.3"
@@ -8456,7 +8456,7 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-socks@^2.6.1:
+socks@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/socks/-/socks-2.6.2.tgz#ec042d7960073d40d94268ff3bb727dc685f111a"
   integrity sha512-zDZhHhZRY9PxRruRMR7kMhnf3I8hDs4S3f9RecfnGxvcBHQcKcIH/oUcEWffsfl1XxdYlA7nnlGbbTvPz9D8gA==
