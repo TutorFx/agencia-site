@@ -77,6 +77,12 @@ export default {
           endval: 95,
         },
         {
+          suffix: "MIL",
+          of: "Criativos Gráficos <br> desenvolvidos",
+          value: false,
+          endval: 10,
+        },
+        {
           suffix: "CASES",
           of: "Fábricas e Empresas <br> atendidas",
           value: false,
