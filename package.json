@@ -24,7 +24,7 @@
     "lottie-web": "^5.9.1",
     "mobile-detect": "^1.4.5",
     "mongoose": "^6.2.2",
-    "nodemailer": "^6.7.2",
+    "nodemailer": "^6.7.5",
     "nodemailer-express-handlebars": "^4.0.0",
     "nuxt": "^2.15.8",
     "vue": "^2.6.14",
