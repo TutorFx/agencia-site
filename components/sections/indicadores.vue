@@ -13,7 +13,7 @@
           </div> -->
         </div>
         <div class="d-flex flex-wrap justify-space-between black">
-          <div v-for="(value, i) in indicadores" :key="i" class="pa-4">
+          <div v-for="(value, i) in indicadores" :key="i" class="pa-4 indicador">
             <v-lazy v-model="indicadores[i].value">
               <div
                 class="
@@ -72,15 +72,15 @@ export default {
         },
         {
           suffix: "MIL",
-          of: "Leads convertidos <br> em anúncios pagos",
+          of: "Investimentos <br> em Publicidade",
           value: false,
-          endval: 95,
+          endval: 967,
         },
         {
           suffix: "MIL",
-          of: "Criativos Gráficos <br> desenvolvidos",
+          of: "Leads convertidos <br> em anúncios pagos",
           value: false,
-          endval: 10,
+          endval: 95,
         },
         {
           suffix: "CASES",
@@ -90,9 +90,15 @@ export default {
         },
         {
           suffix: "MIL",
-          of: "Investimentos <br> em Publicidade",
+          of: "Criativos Gráficos <br> desenvolvidos",
           value: false,
-          endval: 967,
+          endval: 10,
+        },
+        {
+          suffix: "CRM",
+          of: "Implementação e <br> gestão de Funil",
+          value: false,
+          endval: 2,
         },
       ],
     };
@@ -110,6 +116,9 @@ export default {
   min-height: 75vh;
   align-items: center !important;
   display: flex;
+}
+.indicador{
+  min-width: 30%;
 }
 .animation{
   max-width: 200px;

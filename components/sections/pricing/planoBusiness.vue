@@ -36,16 +36,15 @@ export default {
 
         "Campanhas On/Off",
         "Campanhas Internas",
-        "Auditorias",
 
-        "Gerenciamento Insta/Face/Youtube",
+        "Gerenciamento AIO",
         "Anuncios Ads Em Redes Sociais",
         "Anuncios Ads No Google",
-        "Anuncios Ads No Google Merchan",
-
+        "Anuncios Ads No Google Merchan Center",
+        "CRM",
         "Funil De Vendas",
 
-        "Site Template Pronta",
+        "Website",
         "Suporte Email",
 
         "Filmagens 4k Áereas C/ Drone",

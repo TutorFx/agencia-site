@@ -1,6 +1,6 @@
 <template>
-  <div class="pricing-container">
-    <div v-if="false" class="animation-pricing-slider">
+  <div @mouseover="onHoverEnd = true" class="pricing-container">
+    <div v-if="!onHoverEnd" class="animation-pricing-slider">
       <animation-json
         path="swipe"     
       />
@@ -8,6 +8,7 @@
     <v-container class="py-16">
       <Flicking
         :options="options"
+        ref="flicking"
       >
         <!-- Executive -->
         <v-col cols="auto">
@@ -26,7 +27,6 @@
           <plano-ultra />
         </v-col>
       </Flicking>
-      {{options.index}}
     </v-container>
   </div>
 </template>
@@ -47,8 +47,11 @@ export default {
     return {
       options: {
         align: { camera: 0, panel: 0 },
-      }
+      },
+      onHoverEnd: false,
     }
+  },
+  mounted(){
   }
 };
 </script>
@@ -65,11 +68,11 @@ export default {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 0;
+  top: 2rem;
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 10;
+  z-index: 3;
 }
 .price{
   max-width: 300px!important;

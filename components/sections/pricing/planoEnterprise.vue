@@ -38,17 +38,17 @@ export default {
 
         "Campanhas On/Off",
         "Campanhas Internas",
-        "Auditorias",
+        "NPS Interna e Externa",
 
-        "Gerenciamento Em Multi Redes Sociais",
+        "Gerenciamento AIO",
         "Anuncios Ads Em Redes Sociais",
         "Anuncios Ads No Google",
-        "Anuncios Ads No Google Merchan",
+        "Anuncios Ads No Google Merchan Center",
 
         "Funil De Vendas",
         "Chatbot",
 
-        "Site Código (Node.Js / Nuxt / Vue.Js / React)",
+        "Website Plus",
         "Suporte Email",
         "Hospedagem + Servidor",
         "Extranet",

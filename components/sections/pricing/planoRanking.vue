@@ -13,7 +13,7 @@
     <div class="pa-3 py-6">
       <div class="px-3 font-weight-light pricing-scroller">
         <check v-for="i in checks" :key="i">
-          <span>{{ i }}</span>
+          <span v-html="i"></span>
         </check>
       </div>
     </div>
@@ -33,13 +33,13 @@ export default {
       checks: [
         "Artes Gráficas",
         "Vídeos Ilustrativos",
+        "Gerenciamento AIO",
 
         "Gerenciamento Insta/Face",
         "Anuncios ADS em Redes Sociais",
-        "Anuncios ADS no GOOGLE",
+        "Anuncios Ads No Google Merchan Center",
 
-        "Campanhas ON/OFF",
-        "Campanhas Internas",
+        "Fotos e Filmagens"
       ],
     };
   },
