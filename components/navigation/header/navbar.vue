@@ -2,6 +2,7 @@
   <v-app-bar class="black elevation-0" max-height="70px" style="z-index: 90">
     <v-container>
       <div class="d-flex">
+        <logo style="max-width: 100px; max-height: 30px" />
         <v-btn text to="/" v-if="$nuxt.$route.path != '/'">
           <span class="d-none d-md-block">Início</span>
           <v-icon class="d-md-none">mdi mdi-home</v-icon>
