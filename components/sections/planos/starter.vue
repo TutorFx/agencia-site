@@ -3,9 +3,7 @@
     <v-col class="my-10">
       <div class="display-1 mb-3">Experimente as maravilhas do marketing digital em sua rede social.</div>
       <div class="paragraph mb-10">
-        Vivamus libero risus, pretium et dolor tempus, aliquet cursus odio.
-        Integer velit eros, bibendum quis egestas a, suscipit eget lacus. Class
-        aptent taciti sociosqu ad litora torquent per conubia nostra.
+        Crie campanhas digitais e posts elaborados para suas redes sociais com conteúdo criativo e otimize a imagem do seu negócio no mundo digital.
       </div>
       <v-btn large class="mb-10" color="green" to="/planos/starter" nuxt>
         Saiba mais <v-icon>mdi mdi-chevron-right</v-icon>
