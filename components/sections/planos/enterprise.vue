@@ -1,11 +1,9 @@
 <template>
   <v-row>
     <v-col class="my-10">
-      <div class="display-1 mb-3">Lorem ipsum dolor sit amet</div>
+      <div class="display-1 mb-3">Impressione seu público com ações de marketing 360º.</div>
       <div class="paragraph mb-10">
-        Vivamus libero risus, pretium et dolor tempus, aliquet cursus odio.
-        Integer velit eros, bibendum quis egestas a, suscipit eget lacus. Class
-        aptent taciti sociosqu ad litora torquent per conubia nostra.
+        Recursos de marketing efetivo e digital completos, incluindo animação, fotografia, criação de conteúdo e gerenciamento de redes sociais, além da estruturação no funil de vendas e campanhas de endomarketing.
       </div>
       <v-btn large class="mb-10" color="purple" to="/planos/enterprise" nuxt>
         Saiba mais <v-icon>mdi mdi-chevron-right</v-icon>
