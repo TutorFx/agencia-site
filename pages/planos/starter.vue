@@ -50,9 +50,7 @@
                 <div class="mb-10">
                   <kinesis-element :strength="10">
                     <p class="grey--text text-center text-md-left">
-                      Vivamus libero risus, pretium et dolor tempus, aliquet
-                      cursus odio. Integer velit eros, bibendum quis egestas a,
-                      suscipit eget lacus.
+                      Experimente as maravilhas do marketing digital em sua rede social.
                     </p>
                   </kinesis-element>
                 </div>
