@@ -1,7 +1,7 @@
 <template>
   <v-row>
     <v-col class="my-10">
-      <div class="display-1 mb-3">Lorem ipsum dolor sit amet</div>
+      <div class="display-1 mb-3">Experimente as maravilhas do marketing digital em sua rede social.</div>
       <div class="paragraph mb-10">
         Vivamus libero risus, pretium et dolor tempus, aliquet cursus odio.
         Integer velit eros, bibendum quis egestas a, suscipit eget lacus. Class

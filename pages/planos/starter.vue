@@ -43,14 +43,16 @@
                 <div class="mb-4">
                   <kinesis-element :strength="5">
                     <div class="display-1 text-center text-md-left">
-                      Plano Inicial ao Marketing Digital
+                      Experimente as maravilhas do marketing digital em sua rede social.
                     </div>
                   </kinesis-element>
                 </div>
                 <div class="mb-10">
                   <kinesis-element :strength="10">
                     <p class="grey--text text-center text-md-left">
-                      Experimente as maravilhas do marketing digital em sua rede social.
+                      Vivamus libero risus, pretium et dolor tempus, aliquet
+                      cursus odio. Integer velit eros, bibendum quis egestas a,
+                      suscipit eget lacus.
                     </p>
                   </kinesis-element>
                 </div>
