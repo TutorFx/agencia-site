@@ -3,7 +3,7 @@
     <v-col class="my-10">
       <div class="display-1 mb-3">Alcance os resultados financeiros no funil de vendas</div>
       <div class="paragraph mb-10">
-        Garanta o melhor posicionamento na captação e conversão de leads utilizando estratégias de marketing em vendas, além de contar equipe especializada em criação de conteúdo para mídias sociais.
+        Garanta o melhor posicionamento na captação e conversão de leads utilizando estratégias de marketing inteligente, além de contar equipe especializada na criação de conteúdo para mídias sociais.
       </div>
       <v-btn large class="mb-10" color="red" to="/planos/business" nuxt>
         Saiba mais <v-icon>mdi mdi-chevron-right</v-icon>
