@@ -4,6 +4,7 @@ export const state = () => ({
         {value: 'solargo', text: 'SolarGO'},
         {value: 'geotech', text: 'Geotech'},
     ],
+    menu: false,
     device: {
         isMobile: false,
         isTablet: false,
@@ -20,5 +21,8 @@ export const state = () => ({
 export const mutations = {
     setDevice(state, value){
         state.device = value
-    }
+    },
+    setMenu(state, value){
+        state.menu = value
+    },
 };

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-container>
+    <v-container class="my-16">
       <div class="d-flex">
         <div class="display-2 font-weight-bold title-team">
           Equipe A.I.

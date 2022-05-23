@@ -1,12 +1,12 @@
 <template>
-  <v-app id="app">
+  <v-app id="app" ref="body">
     <navbar />
     <alerts />
     <loader />
     <v-main class="black">
       <nuxt />
     </v-main>
-    <footer-one />
+    <footer-one v-if="!$store.state.menu" />
   </v-app>
 </template>
 

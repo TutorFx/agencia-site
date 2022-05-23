@@ -18,7 +18,7 @@ export default {
   css: ["animate.css/animate.min.css"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: '~/plugins/flicking', client: true }, '~/plugins/device.server.js'],
+  plugins: [{ src: '~/plugins/flicking', client: true }, '~/plugins/device.server.js', '~/plugins/kinesis.js'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: [
@@ -124,6 +124,8 @@ export default {
           light: "#fafafa",
           dark: "#121211",
           border: "#505059",
+          starter: "#4CAF50",
+          starterBg: "#030803",
         },
       },
     },

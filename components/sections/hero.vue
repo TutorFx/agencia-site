@@ -5,9 +5,9 @@
                 <v-row class="align-center">
                     <v-col cols="12" md="8">
                         <div>
-                            <div class="d-flex justify-center justify-md-start">
+<!--                             <div class="d-flex justify-center justify-md-start">
                                 <logo style="max-width: 200px" class="mb-10" />
-                            </div>
+                            </div> -->
                             <div class="display-1 font-weight-regular mb-10 text-center text-md-left">
                                 Tenha um departamento de marketing expansivo contribuindo com a performance publicitária
                                 <span class="primary--text font-weight-regular">e nos resultados de vendas da sua empresa.</span>

@@ -5,7 +5,7 @@
         <servicos />
       </videobg>
       <indicadores />
-      <pricing /> 
+      <planos /> 
       <equipe />
   </div>
 </template>
