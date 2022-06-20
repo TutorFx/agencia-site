@@ -67,7 +67,7 @@ export default {
           suffix: "MILHÕES",
           of: "De receita criada <br> no Funil de Vendas",
           value: false,
-          endval: 6,
+          endval: 7,
         },
         {
           suffix: "MIL",
