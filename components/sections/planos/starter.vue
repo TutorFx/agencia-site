@@ -1,5 +1,5 @@
 <template>
-  <v-row>
+  <v-row align="center">
     <v-col class="my-10">
       <div class="display-1 mb-3">Experimente as maravilhas do marketing digital em sua rede social.</div>
       <div class="paragraph mb-10">
@@ -9,8 +9,8 @@
         Saiba mais <v-icon>mdi mdi-chevron-right</v-icon>
       </v-btn>
     </v-col>
-    <v-col>
-      <v-img src="https://www.rocketseat.com.br/_next/image?url=%2Fimages%2Fhome%2Fdev-coding-ignite.png&w=640&q=100"> </v-img>
+    <v-col class="d-flex align-center py-8">
+      <nuxt-img sizes="sm:300px md:50vw lg:500px" src="/planos/starter.png"> </nuxt-img>
     </v-col>
   </v-row>  
 </template>

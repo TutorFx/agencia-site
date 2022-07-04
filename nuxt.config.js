@@ -28,7 +28,7 @@ export default {
     "~/components/navigation/footer/",
   ],
 
-  target: 'server',
+  target: 'static',
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
@@ -46,7 +46,7 @@ export default {
     "@nuxt/content",
     "@nuxtjs/auth-next",
     "vue-toastification/nuxt",
-
+    ['@nuxt/image'],
     // You can also pass plugin options
     ["vue-toastification/nuxt", {
       timeout: 1000,
