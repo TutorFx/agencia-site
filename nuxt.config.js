@@ -28,7 +28,7 @@ export default {
     "~/components/navigation/footer/",
   ],
 
-  target: 'static',
+  target: 'server',
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
