@@ -46,7 +46,6 @@ export default {
     "@nuxt/content",
     "@nuxtjs/auth-next",
     "vue-toastification/nuxt",
-    ['@nuxt/image'],
     // You can also pass plugin options
     ["vue-toastification/nuxt", {
       timeout: 1000,

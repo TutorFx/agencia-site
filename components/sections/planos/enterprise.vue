@@ -9,8 +9,8 @@
         Saiba mais <v-icon>mdi mdi-chevron-right</v-icon>
       </v-btn>
     </v-col>
-    <v-col class="d-flex align-center py-8">
-      <nuxt-img sizes="sm:300px md:50vw lg:500px" src="/planos/enterprise.png"> </nuxt-img>
+    <v-col cols="12" lg="6" class="d-flex align-center py-8">
+      <v-img contain src="/planos/enterprise.alta.png" lazy-src="/planos/enterprise.png"> </v-img>
     </v-col>
   </v-row>
 </template>
