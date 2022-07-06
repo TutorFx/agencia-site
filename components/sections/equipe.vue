@@ -76,9 +76,9 @@ export default {
           tudo o que sua equipe tem para oferecer.`,
         },
         {
-          name: "Gabriel Xavier",
-          cargo: "Atendimento",
-          excerpt: `É responsável em fazer a ponte entre os clientes e a agência, garantindo que cada um faça seu trabalho com a maior excelência possível para entregar um resultado satisfatório.`,
+          name: "Daniel Nascimento",
+          cargo: "Group Partner",
+          excerpt: `Executivo de contas, responsável por fazer a ponte entre os clientes e a agência orientando a execução do trabalho com a maior excelência e resultado satisfatório.`,
         },
         {
           name: "Pablo Costa",
