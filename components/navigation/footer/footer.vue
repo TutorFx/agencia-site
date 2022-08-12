@@ -15,37 +15,13 @@
         <v-spacer />
         <v-col cols="12" md="7">
           <v-row justify="space-between" class="fill-width footer-menu-box">
-            <v-col cols="auto">
-              <div class="mb-6">Programas</div>
+            <v-col cols="auto" v-for="(categ, i) in footer" :key="i">
+              <div class="mb-6">{{i}}</div>
               <ul class="footer-logo-box-ul">
-                <li class="footer-menu-box-item" v-for="i in 4" :key="i">
+                <li class="footer-menu-box-item" v-for="i in categ" :key="i">
                   <div>
                     <div class="inner">
-                      <NuxtLink to="/"> Item {{ i }} </NuxtLink>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </v-col>
-            <v-col cols="auto">
-              <div class="mb-6">Modalidades</div>
-              <ul class="footer-logo-box-ul">
-                <li class="footer-menu-box-item" v-for="i in 4" :key="i">
-                  <div>
-                    <div class="inner">
-                      <NuxtLink to="/"> Item {{ i }} </NuxtLink>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </v-col>
-            <v-col cols="auto">
-              <div class="mb-6">Navegação</div>
-              <ul class="footer-logo-box-ul">
-                <li class="footer-menu-box-item" v-for="i in 2" :key="i">
-                  <div>
-                    <div class="inner">
-                      <NuxtLink to="/"> Item {{ i }} </NuxtLink>
+                      <NuxtLink :to="i.link"> {{ i.nome }} </NuxtLink>
                     </div>
                   </div>
                 </li>
@@ -71,8 +47,12 @@
 </template>
 
 <script>
+import { footer } from "~/assets/data.js";
 export default {
   components: { logoLonga: () => import("~/components/logoLonga.vue") },
+  data: () => ({
+    footer
+  })
 };
 </script>
 
