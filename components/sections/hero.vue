@@ -14,7 +14,7 @@
                             </div>
                             <div class="d-flex justify-center justify-md-start">
                                 <div class="d-inline-block">
-                                    <v-btn rounded x-large outlined color="primary" class="mb-5">Quero ter bons resultados
+                                    <v-btn @click="$store.commit('contatoToggle')" rounded x-large outlined color="primary" class="mb-5">Quero ter bons resultados
                                     </v-btn>
                                     <div class="floating d-flex justify-center">
                                         <v-icon size="45">mdi mdi-chevron-down</v-icon>

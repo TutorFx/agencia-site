@@ -1,6 +1,7 @@
 <template>
   <v-app id="app" ref="body">
     <navbar />
+    <dialogs />
     <alerts />
     <loader />
     <v-main class="black">
