@@ -18,7 +18,7 @@ export default {
   css: ["animate.css/animate.min.css"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: '~/plugins/flicking', client: true }, '~/plugins/device.server.js', '~/plugins/kinesis.js'],
+  plugins: [{ src: '~/plugins/flicking', client: true }, '~/plugins/device.client.js', '~/plugins/kinesis.js'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: [
@@ -28,7 +28,8 @@ export default {
     "~/components/navigation/footer/",
   ],
 
-  target: 'server',
+  // Site estático (nuxt generate) para deploy na Vercel
+  target: 'static',
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
@@ -38,66 +39,17 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/axios
-    "@nuxtjs/axios",
     // https://go.nuxtjs.dev/pwa
     "@nuxtjs/pwa",
     // https://go.nuxtjs.dev/content
     "@nuxt/content",
-    "@nuxtjs/auth-next",
-    "vue-toastification/nuxt",
-    // You can also pass plugin options
-    ["vue-toastification/nuxt", {
-      timeout: 1000,
-      draggable: false
-    }]
   ],
-
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {
-    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: 'https://gs-backend-blush.vercel.app/',
-    proxyHeaders: false,
-    credentials: false
-  },
-
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
       lang: "en",
     },
-  },
-
-  // server
-
-  serverMiddleware: 
-    process.env.NODE_ENV === 'production' ? [] : [],
-
-  // auth
-
-  auth: {
-    strategies: {
-      local: {
-        token: {
-          property: 'token',
-          global: true,
-        },
-        endpoints: {
-          login: { url: '/auth/authenticate', method: 'post', propertyName: 'token' },
-          logout: { url: '/user/logout', method: 'post' },
-          register: { url: '/auth/register', method: 'post', propertyName: 'token' },
-          user: { url: '/user', method: 'get', propertyName: false },
-          userlist: { url: '/user/userlist', method: 'get', propertyName: false },
-        },
-        user:{
-          property: ''
-        },
-      }
-    },
-    redirect: {
-      login: '/login',
-    }
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content

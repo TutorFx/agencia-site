@@ -25,53 +25,6 @@
             >{{ rota.text }}</Nuxt-Link
           >
           <v-spacer></v-spacer>
-          <client-only>
-            <div v-if="!$auth.loggedIn" class="d-lg-block d-none">
-              <v-btn text to="/usuario" nuxt class="mr-3 small"
-                ><v-icon class="mr-3" color="primary"
-                  >mdi mdi-account-outline</v-icon
-                ><span>Entrar</span></v-btn
-              >
-              <v-hover v-slot="{ hover }">
-                <v-btn
-                  to="/registro"
-                  nuxt
-                  color="primary"
-                  outlined
-                  class="white--text"
-                  :style="`border-color: ${
-                    $vuetify.theme.currentTheme.primary
-                  }; border-width: 1px!important; background: ${
-                    hover ? $vuetify.theme.currentTheme.primary : 'none'
-                  }`"
-                  >registro</v-btn
-                >
-              </v-hover>
-            </div>
-            <div v-else>
-              <v-btn
-                to="/usuario"
-                nuxt
-                rounded
-                class="ma-0 mr-3 elevation-0"
-                color="primary"
-                text
-              >
-                <v-icon class="mr-md-2">mdi mdi-account</v-icon>
-                <span class="d-none d-md-block">
-                  {{
-                    $store.state.auth.loggedIn
-                      ? "Olá, " + $store.state.auth.user.user.name.split(" ")[0]
-                      : "Minha Conta"
-                  }}
-                </span>
-              </v-btn>
-              <v-btn rounded color="primary" text @click="$auth.logout()">
-                <v-icon class="mr-md-3">mdi mdi-logout</v-icon>
-                <span class="d-none d-md-block">Sair</span>
-              </v-btn>
-            </div>
-          </client-only>
           <v-btn @click="$store.commit('setMenu', !$store.state.menu)" class="d-lg-none d-block" fab text>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -130,56 +83,6 @@
             :to="rota.to"
             >{{ rota.text }}</Nuxt-Link
           >
-        </div>
-        <div class="btns">
-          <client-only>
-            <div v-if="!$auth.loggedIn">
-              <v-btn text x-large to="/usuario" nuxt class="mr-3 small"
-                ><v-icon class="mr-3" color="primary"
-                  >mdi mdi-account-outline</v-icon
-                ><span>Entrar</span></v-btn
-              >
-              <v-hover v-slot="{ hover }">
-                <v-btn
-                  x-large
-                  to="/registro"
-                  nuxt
-                  color="primary"
-                  outlined
-                  class="white--text"
-                  :style="`border-color: ${
-                    $vuetify.theme.currentTheme.primary
-                  }; border-width: 1px!important; background: ${
-                    hover ? $vuetify.theme.currentTheme.primary : 'none'
-                  }`"
-                  >registro</v-btn
-                >
-              </v-hover>
-            </div>
-            <div v-else>
-              <v-btn
-                to="/usuario"
-                nuxt
-                rounded
-                class="ma-0 mr-3 elevation-0"
-                color="primary"
-                text
-              >
-                <v-icon class="mr-md-2">mdi mdi-account</v-icon>
-                <span class="d-none d-md-block">
-                  {{
-                    $store.state.auth.loggedIn
-                      ? "Olá, " + $store.state.auth.user.user.name.split(" ")[0]
-                      : "Minha Conta"
-                  }}
-                </span>
-              </v-btn>
-              <v-btn rounded color="primary" text @click="$auth.logout()">
-                <v-icon class="mr-md-3">mdi mdi-logout</v-icon>
-                <span class="d-none d-md-block">Sair</span>
-              </v-btn>
-            </div>
-          </client-only>
         </div>
       </v-container>
     </div>

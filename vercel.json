@@ -1,18 +1,16 @@
 {
-  "version": 2,
-  "builds": [
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nuxtjs",
+  "installCommand": "npm ci",
+  "buildCommand": "npm run generate",
+  "outputDirectory": "dist",
+  "headers": [
     {
-      "src": "nuxt.config.js",
-      "use": "@nuxtjs/vercel-builder",
-      "config": {
-        "serverFiles": [
-          "package.json",
-          ".nuxt/content/**",
-          "content/**",
-          "./.nuxt/dist/sitemap-routes.json"
-        ],
-        "internalServer": true
-      }
+      "source": "/sw.js",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" },
+        { "key": "Service-Worker-Allowed", "value": "/" }
+      ]
     }
   ]
 }
