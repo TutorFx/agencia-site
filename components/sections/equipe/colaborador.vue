@@ -13,12 +13,7 @@
             <div class="colaborador-content">
                 <div>
                     <div class="colaborador-name">
-                        {{content.name}}
-                    </div>
-                    <div class="colaborador-cargo accent--text">
-                        <span>
-                            {{content.cargo}}
-                        </span>
+                        {{content.cargo}}
                     </div>
                 </div>
             </div>
@@ -37,7 +32,6 @@ export default {
         content:{
             type: Object,
             default: () => ({
-                name: '{NOME}',
                 cargo: '{CARGO}',
                 empresa: '{EMPRESA}',
                 excerpt: "{EXCERPT} Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",

@@ -44,14 +44,12 @@ export default {
     updateColabs(){
       return [
         {
-          name: "Marcos",
           cargo: "Gestor de Marketing",
           excerpt: `Nosso gestor de marketing! É responsável fazer a ponte entre os clientes e os agentes A.I.,
           garantindo que cada um faça seu trabalho com a maior excelência possível
           para entregar um resultado satisfatório. Ele é quem bota ordem na casa!`,
         },
         {
-          name: "Igor",
           cargo: "Coordenador de Equipe",
           excerpt: `O designer gráfico e coordenador da galera.
           Especialista na criação das artes e imagens, 
@@ -59,7 +57,6 @@ export default {
           É ele quem coordena a equipe para entregar um perfil com a cara do seu negócio.`,
         },
         {
-          name: "Gabriel Serejo",
           cargo: "Programador",
           excerpt: `O cara é fera quando o assunto é programação e criação de sites.
           Ele fica responsável por cuidar do web design da empresa,
@@ -67,7 +64,6 @@ export default {
           Ele é a chave para levar seu negócio ao Brasil inteiro.`,
         },
         {
-          name: "Daniel Nascimento",
           cargo: "Group Partner",
           excerpt: `Executivo de contas, responsável por fazer a ponte entre os clientes e a agência orientando a execução do trabalho com a maior excelência e resultado satisfatório.`,
         }
