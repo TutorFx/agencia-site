@@ -43,15 +43,13 @@ Sugestão: Fazer compilado dos serviços oferecidos pela A.I com frases descriti
 ---
 
 *Equipe A.I.*
-.Gestor de Marketing: Nosso gestor de marketing! É responsável fazer a ponte entre os clientes e os agentes A.I., garantindo que cada um faça seu trabalho com a maior excelência possível para entregar um resultado satisfatório. Ele é quem bota ordem na casa!
+.Nosso gestor de marketing! É responsável fazer a ponte entre os clientes e os agentes A.I., garantindo que cada um faça seu trabalho com a maior excelência possível para entregar um resultado satisfatório. Ele é quem bota ordem na casa!
 
-.Coordenador de Equipe: O designer gráfico e coordenador da galera. Especialista na criação das artes e imagens, ele é responsável pela identidade visual de cada empresa. É ele quem coordena a equipe para entregar um perfil com a cara do seu negócio.
+.O designer gráfico e coordenador da galera. Especialista na criação das artes e imagens, ele é responsável pela identidade visual de cada empresa. É ele quem coordena a equipe para entregar um perfil com a cara do seu negócio.
 
-.Programador: O cara é fera quando o assunto é programação e criação de sites. Ele fica responsável por cuidar do web design da empresa, criando uma página virtual interativa e de fácil acesso para os seus clientes. Ele é a chave para levar seu negócio ao Brasil inteiro.
+.O cara é fera quando o assunto é programação e criação de sites. Ele fica responsável por cuidar do web design da empresa, criando uma página virtual interativa e de fácil acesso para os seus clientes. Ele é a chave para levar seu negócio ao Brasil inteiro.
 
-.Especialista em Comunicação: É a especialista em comunicação do grupo. Fica responsável por cuidar das mídias sociais, copyrights e criação de roteiros e reportagens de cada empresa. É ela quem chama a atenção do público para seu negócio mostrando tudo o que sua equipe tem para oferecer.
-
-.Produtor Audiovisual
+.É a especialista em comunicação do grupo. Fica responsável por cuidar das mídias sociais, copyrights e criação de roteiros e reportagens de cada empresa. É ela quem chama a atenção do público para seu negócio mostrando tudo o que sua equipe tem para oferecer.
 
 ---
 

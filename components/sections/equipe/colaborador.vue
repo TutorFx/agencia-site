@@ -4,20 +4,6 @@
         <p>
         “{{content.excerpt}}”
         </p>
-        <div class="d-flex">
-            <div class="colaborador-avatar">
-                <v-avatar>
-                    <v-img :src="foto" alt="" />
-                </v-avatar>
-            </div>
-            <div class="colaborador-content">
-                <div>
-                    <div class="colaborador-name">
-                        {{content.cargo}}
-                    </div>
-                </div>
-            </div>
-        </div>
     </v-container>
     </div>
 </template>
