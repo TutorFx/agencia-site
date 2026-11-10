@@ -67,28 +67,9 @@ export default {
           Ele é a chave para levar seu negócio ao Brasil inteiro.`,
         },
         {
-          name: "Tetê",
-          cargo: "Especialista em Comunicação",
-          excerpt: `É a especialista em comunicação do grupo.
-          Fica responsável por cuidar das mídias sociais,
-          copyrights e criação de roteiros e reportagens de cada empresa.
-          É ela quem chama a atenção do público para seu negócio mostrando
-          tudo o que sua equipe tem para oferecer.`,
-        },
-        {
           name: "Daniel Nascimento",
           cargo: "Group Partner",
           excerpt: `Executivo de contas, responsável por fazer a ponte entre os clientes e a agência orientando a execução do trabalho com a maior excelência e resultado satisfatório.`,
-        },
-        {
-          name: "Pablo Costa",
-          cargo: "Designer Gráfico",
-          excerpt: `A criação está no ar com esse designer de primeira. Quando o assunto se trata de branding, paleta de cores e conteúdos criativos, é com esse cara que a gente conta!`,
-        },
-        {
-          name: 'Flávio César',
-          cargo: 'Produtor Audio-Visual',
-          excerpt: `Produz sensacionais criando experiência com os produtos dos nossos clientes através de fotos e filmagens realizadas no studio da agência, nas empresas dos clientes onde for necessário mandar o click maneiro.`,
         }
       ].sort(() => 0.5 - Math.random()).slice(0, 4)
     }
